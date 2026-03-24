@@ -27,7 +27,7 @@ function calculateDiscountedPrice(originalPrice, discountPercentage) {
     return originalPrice - discountAmount; // Returns price after discount
 }
 
-// Optional: Export functions if tests require it
+// Export all functions for testing
 module.exports = {
     calculateTax,
     convertToUpperCase,
